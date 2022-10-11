@@ -1,0 +1,15 @@
+C:\Users\StefanoSavarino\source\repos\DnDHelper\obj\Debug\net6.0\DnDHelper.csproj.AssemblyReference.cache
+C:\Users\StefanoSavarino\source\repos\DnDHelper\obj\Debug\net6.0\DnDHelper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\StefanoSavarino\source\repos\DnDHelper\obj\Debug\net6.0\DnDHelper.AssemblyInfoInputs.cache
+C:\Users\StefanoSavarino\source\repos\DnDHelper\obj\Debug\net6.0\DnDHelper.AssemblyInfo.cs
+C:\Users\StefanoSavarino\source\repos\DnDHelper\obj\Debug\net6.0\DnDHelper.csproj.CoreCompileInputs.cache
+C:\Users\StefanoSavarino\source\repos\DnDHelper\bin\Debug\net6.0\DnDHelper.exe
+C:\Users\StefanoSavarino\source\repos\DnDHelper\bin\Debug\net6.0\DnDHelper.deps.json
+C:\Users\StefanoSavarino\source\repos\DnDHelper\bin\Debug\net6.0\DnDHelper.runtimeconfig.json
+C:\Users\StefanoSavarino\source\repos\DnDHelper\bin\Debug\net6.0\DnDHelper.dll
+C:\Users\StefanoSavarino\source\repos\DnDHelper\bin\Debug\net6.0\DnDHelper.pdb
+C:\Users\StefanoSavarino\source\repos\DnDHelper\obj\Debug\net6.0\DnDHelper.dll
+C:\Users\StefanoSavarino\source\repos\DnDHelper\obj\Debug\net6.0\refint\DnDHelper.dll
+C:\Users\StefanoSavarino\source\repos\DnDHelper\obj\Debug\net6.0\DnDHelper.pdb
+C:\Users\StefanoSavarino\source\repos\DnDHelper\obj\Debug\net6.0\DnDHelper.genruntimeconfig.cache
+C:\Users\StefanoSavarino\source\repos\DnDHelper\obj\Debug\net6.0\ref\DnDHelper.dll
