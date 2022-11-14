@@ -1,10 +1,22 @@
-﻿using System;
+﻿/*****************************************************************************/
+/* C# program to learn the language                                          */
+/* The initial idea is to store character sheets and DnD info in it.         */
+/*                                                                           */
+/* TODO:                                                                     */
+/*  - add database integration to store character sheets, NPCs, and more     */
+/*                                                                           */
+/*****************************************************************************/
+
+
+using System;
+using System.Security.Cryptography.X509Certificates;
+
 class DnDHelper {
 
-    class CharacterStats
+    internal class CharacterStats
     {
-        string name;
-        int hp;
+        private string name;
+        private int hp;
 
         public CharacterStats(string name, int hp)
         {
@@ -12,30 +24,25 @@ class DnDHelper {
             this.hp = hp;
             Console.WriteLine("CharacterStats class created!");
         }
-        
-        public string getName()
-        {
-            return name;
-        }
-        public int getHp()
-        {
-            return hp;
-        }
+
+        // properties definition
+        public string Name => name;
+        public int Hp => hp;
     }
-    Stack<CharacterStats> stats;
+
     static void Main()
     {
-        var stats = new Stack<CharacterStats>();
+        Stack<CharacterStats> stats = new Stack<CharacterStats>();
         Console.WriteLine("Welcome to DnDHelper 0.1");
         
         // poll user for name
         Console.WriteLine("Insert character name: ");
-        string name = Console.ReadLine();
+        string? name = Console.ReadLine();
         Console.WriteLine($"Character name: {name}");
 
         // poll user for hp
         Console.WriteLine("Insert character hp: ");
-        string hp_string = Console.ReadLine();
+        string? hp_string = Console.ReadLine();
         int hp = 0;
         hp = Int32.Parse(hp_string);
         Console.WriteLine($"Character hp: {hp}");
@@ -52,8 +59,8 @@ class DnDHelper {
         FileInfo char_file = new FileInfo("C:/Users/StefanoSavarino/Desktop/characters.txt");
         StreamWriter sw = char_file.CreateText();
 
-        sw.WriteLine("character name: " + printable.getName());
-        sw.WriteLine("character hp: " +printable.getHp());
+        sw.WriteLine("character name: " + printable.Name);
+        sw.WriteLine("character hp: " +printable.Hp);
         sw.Close();
     }
 }
